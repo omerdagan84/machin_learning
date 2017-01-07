@@ -10,8 +10,6 @@ sqrErr = (prediction - y) .^ 2;
 
 J = 1/(2*m) * sum(sqrErr);
 % You need to return the following variables correctly 
-
-
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
